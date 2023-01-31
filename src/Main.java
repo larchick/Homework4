@@ -92,14 +92,14 @@ public class Main {
     public static void task7 () {
         System.out.println ("Задача 7");
         int one=5;
-        int two=5;
+        int two=100;
         int three=5;
         if (one>two && one>three){
-            System.out.println("Максимальное число" + one);
+            System.out.println("Максимальное число " + one);
         } else if (two>one && two>three){
-            System.out.println("Максимальное число" + two);
+            System.out.println("Максимальное число " + two);
         } else if (three>one && three>two) {
-            System.out.println("Максимальное число" + three);
+            System.out.println("Максимальное число " + three);
         } else {
             System.out.println("Все числа равны");
         }
